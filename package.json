@@ -1,8 +1,8 @@
 {
   "name": "md-util-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "将.md文件转为react或者vue组件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf ./dist",
     "prod": "webpack --mode production --config ./config/prod.js"

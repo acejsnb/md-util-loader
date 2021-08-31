@@ -21,7 +21,7 @@ module.exports = async function (source) {
             .replace(/(\n)/g, '{"\\n"}');
 
         tags.forEach((tag) => {
-            html = html.replace(new RegExp(`<${tag}(([\\s\\S])*?)>`, 'g'), `<${tag} ${className}="dui-md-${tag}">`);
+            html = html.replace(new RegExp(`<${tag}(([\s\S])*?)>`, 'g'), `<${tag} ${className}="dui-md-${tag}">`);
         });
 
         let result;
