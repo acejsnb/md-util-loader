@@ -5,7 +5,7 @@ const marked = require('markdown-it')({
     typographer: false
 });
 
-const tags = ['h1', 'h2', 'h3', 'h4', 'ul', 'ol', 'pre', 'img', 'p', 'table'];
+const tags = ['h1', 'h2', 'h3', 'h4', 'ul', 'ol', 'pre', 'p', 'table'];
 
 module.exports = async function (source) {
     const loaderContext = this;
