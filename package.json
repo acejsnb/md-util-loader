@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/xiongshuang/md-util-loader.git"
   },
+  "files": [
+    "dist/*"
+  ],
   "keywords": [
     "react",
     "vue",
