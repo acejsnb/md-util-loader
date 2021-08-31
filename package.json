@@ -1,0 +1,40 @@
+{
+  "name": "md-util-loader",
+  "version": "1.0.0",
+  "description": "将.md文件转为react或者vue组件",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "prod": "webpack --mode production --config ./config/prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiongshuang/md-util-loader.git"
+  },
+  "keywords": [
+    "react",
+    "vue",
+    "markdown",
+    "md",
+    "jsx",
+    "tsx",
+    "component"
+  ],
+  "author": "xs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiongshuang/md-util-loader/issues"
+  },
+  "homepage": "https://github.com/xiongshuang/md-util-loader#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "chalk": "^4.1.2",
+    "markdown-it": "^12.2.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
