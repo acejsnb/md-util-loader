@@ -1,6 +1,6 @@
 {
   "name": "md-util-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "将.md文件转为react或者vue组件",
   "main": "index.js",
   "scripts": {
